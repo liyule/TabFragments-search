@@ -71,11 +71,13 @@ public class Tab1Fragment extends Fragment {
     }
 
 
+    //clear listview
     public void clearListView(){
         lv.setAdapter(null);
         imgList.clear();
     }
 
+    //load all the Listview objects
     public void loadListView(){
         GlobalVariable.searchText = GlobalVariable.searchText.trim();
         if(GlobalVariable.searchText.equals("") || GlobalVariable.searchText==null){

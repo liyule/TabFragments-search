@@ -5,5 +5,6 @@ package mapp.com.sg.tabfragments;
  */
 
 public class GlobalVariable {
+    // searchview text
     public static String searchText =  "";
 }
